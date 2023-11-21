@@ -19,7 +19,7 @@ def check_answer():
     if user_answer == str(result):
         label.config(text="Отлично! Ответ правильный!")
     else:
-        label.config(text="Неправильно! Пропробуйте ещё раз!")
+        label.config(text="Неправильно! Попробуйте ещё раз!")
 
 
 def next_question():
